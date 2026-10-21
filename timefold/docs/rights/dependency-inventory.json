@@ -1,0 +1,1842 @@
+{
+  "schemaVersion": 1,
+  "source": "package-lock.json plus installed package root metadata/license files",
+  "lockfileVersion": 3,
+  "lockfileSha256": "0b995573012fbae8b8ab8d57e9bc9d551a5e0fb08f8905712068ac097c06285c",
+  "platform": {
+    "os": "linux",
+    "cpu": "x64"
+  },
+  "packageCount": 74,
+  "installedCount": 24,
+  "packages": [
+    {
+      "name": "@dimforge/rapier3d-compat",
+      "version": "0.12.0",
+      "path": "node_modules/@dimforge/rapier3d-compat",
+      "declaredLicense": "Apache-2.0",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/@dimforge/rapier3d-compat/-/rapier3d-compat-0.12.0.tgz",
+      "integrity": "sha512-uekIGetywIgopfD97oDL5PfeezkFpNhwlzlaEYNOA0N6ghdsOvh/HYjSMek5Q2O1PYvRSDFcqFVJl4r4ZBwOow==",
+      "installed": true,
+      "installedVersion": "0.12.0",
+      "repository": "https://github.com/dimforge/rapier.js",
+      "homepage": "https://rapier.rs",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/@dimforge/rapier3d-compat/LICENSE",
+          "copy": "licenses/dimforge__rapier3d-compat-0.12.0-LICENSE",
+          "sha256": "4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519"
+        }
+      ]
+    },
+    {
+      "name": "@esbuild/aix-ppc64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/aix-ppc64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "aix"
+      ],
+      "cpu": [
+        "ppc64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.28.2.tgz",
+      "integrity": "sha512-XExcO+dvLKvVtNTibSTBej1NCAbaGhWn9Ww1ZPx80qsahhPFe/8jgWP0IchNe0F3HwkU7n8ejhH8bjonqht8mQ==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/android-arm",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/android-arm",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "android"
+      ],
+      "cpu": [
+        "arm"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.28.2.tgz",
+      "integrity": "sha512-kXXoiPVVGQcnIYGOeaovwOURpniDBpSq4A03qkQ+BMQqtGG6HYap3xne9C1O1yo4TR3qxlCX5IqqmX6fFo2Lqg==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/android-arm64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/android-arm64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "android"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.28.2.tgz",
+      "integrity": "sha512-5YfKeeI8qWfBZIX+u2xZC3Zlb3Os/gLS2sbEKM+I4ZOcsWmHS2WLysCcQZDAFRslDUU5Oiq44gf6PYN1vGwG5A==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/android-x64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/android-x64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "android"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.28.2.tgz",
+      "integrity": "sha512-O387ite7SzUyCcy3JQX4P4bLtEA7bLLkx+esve5JHnyYfNTxcVpXZo9jhdB0lTKN44gztELTdU7nS8Nr16Fs1Q==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/darwin-arm64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/darwin-arm64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.28.2.tgz",
+      "integrity": "sha512-n4KqkOQrraxHJcgjM1RvwbigfQKIKJVpM7xp+KsxiyUSrRdIXnt73VhrPAx0fV44hgfmIVKjxMN9J1t5jySVkw==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/darwin-x64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/darwin-x64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.28.2.tgz",
+      "integrity": "sha512-uq6suIWYP37qzGddBKPw5QEQPi6HiLGsO7UmkpfyaYNQ3D+rN6w6WfwH+nuqcGXWvawGwxOEroO4YGnFh95azw==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/freebsd-arm64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/freebsd-arm64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "freebsd"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.28.2.tgz",
+      "integrity": "sha512-n+I0BTSRIoy+d6RPKnEVwql5UwBJolytvY4mAOIEJorKlqgPII8ix6slVVrfZ5Tnj7glIZvloylbB/EJPMWEXw==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/freebsd-x64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/freebsd-x64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "freebsd"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.28.2.tgz",
+      "integrity": "sha512-78XJTJkvPs0kz2w61301PJjXl4g7q3JqiYMZ/M/yVI73EHBrCRTgkhu9oqG7vPqq+a/yadEW8aD+agKlk5xrmg==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-arm",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/linux-arm",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.28.2.tgz",
+      "integrity": "sha512-XlDnu2q5yoqems+xay6wSAcg9DDD7K9RLKZEBOMZm3ckNpJBvOX20tSfby8KfrrhINDyv9V2YVZKY/SpoGJI8w==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-arm64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/linux-arm64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.28.2.tgz",
+      "integrity": "sha512-pW4AC0P3it8c7do9MVM4p51FzHzdM/TZrerurgRcHJ2WTa1VQ1CIq18xncfpBJw4ojkiZZrKW2yIBWBP92j6Ug==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-ia32",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/linux-ia32",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "ia32"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.28.2.tgz",
+      "integrity": "sha512-CYbnj78HsIeA+DhgUKgFCfvNsTHFhMMrinUrMZpDXJXKN8T3XViTZ/+wtHeVxEWY8ewSzTFN+nRmSwO2tZaLUQ==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-loong64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/linux-loong64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "loong64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.28.2.tgz",
+      "integrity": "sha512-buwkd8nsph4R+ajRvw0qM5Hja/TXQow3ptzWO2EbG/cqcIkHloRrdlBtQlshyYGTNFvfkfJ5tpPLVkY4DtsPfQ==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-mips64el",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/linux-mips64el",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "mips64el"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.28.2.tgz",
+      "integrity": "sha512-ZVykbDyk7519VwiNb9Lcj9m8XM6v5V9uKPvrEMkkEedVewf+0itkhahp4HDpgERXhwLRpWFypsGbG/J8s0QjJA==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-ppc64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/linux-ppc64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "ppc64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.28.2.tgz",
+      "integrity": "sha512-CAXl+Dtd9UUuJd8pKKdwh6MLm3MUMiqMPmhZ3tTSXPqfyQ3vDl6R5hZdZ/kYojK4ofXtdfSv1tFq8XzWx3heNQ==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-riscv64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/linux-riscv64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "riscv64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.28.2.tgz",
+      "integrity": "sha512-GeXCej4IQtU1B+QlDV8W/RRvbzI3O/Stss+/bCXv4lZls5WGRtu2a+3JkA3i4qIUlMXpcHebWpF8AkJhATowuA==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-s390x",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/linux-s390x",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "s390x"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.28.2.tgz",
+      "integrity": "sha512-3H1weTYZPxt/WOhByszQZybS9w5lKzUn1FDMsgEChbHWQwHYQQRfBxgCcZvPhjHfKyJjIievvMmEUawJrdY9Dg==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/linux-x64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/linux-x64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.28.2.tgz",
+      "integrity": "sha512-4xTZr1FUmSoQW4XIWmit3tzQrUTZM+N3P0XV8xROKYF50XfI7xeO90+1bZvNwxIufQ9hDQVRJH5YhgPVF8A/HQ==",
+      "installed": true,
+      "installedVersion": "0.28.2",
+      "repository": "https://github.com/evanw/esbuild",
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/netbsd-arm64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/netbsd-arm64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "netbsd"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/netbsd-arm64/-/netbsd-arm64-0.28.2.tgz",
+      "integrity": "sha512-sSATRjPeDBg3pdgHoQfoYBob11Kk1FGa9lui5RIHZCoCkJa9QKlvl3/vKz2usCmYYjs7ymJR/2Nnsqe+Hjt5nw==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/netbsd-x64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/netbsd-x64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "netbsd"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.28.2.tgz",
+      "integrity": "sha512-lqnzCV+mM0gIADaKihiCg6ifgfU2L3h5E33rNQBN1Y4MaVGnzryzmvvf7UHxprpQdE8hpqLolJ9Rl+SkIRDpyw==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/openbsd-arm64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/openbsd-arm64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "openbsd"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/openbsd-arm64/-/openbsd-arm64-0.28.2.tgz",
+      "integrity": "sha512-AL2qJILH7lNjrDmCQDvdxMfAUIv8KMNZOvrwAQ8i8//ntL9FflhOyMJ8OZSMBb8/AWXe3/5v5S20y3zCoZWKoQ==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/openbsd-x64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/openbsd-x64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "openbsd"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.28.2.tgz",
+      "integrity": "sha512-QtiuPytchRyC4rwUKhexJdQKvDuZ6hWloi3igqPQNUJCS1/v9EiO3UTOXR6A3FoMo4fnAKbWJdqaIwhOzh8qEw==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/openharmony-arm64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/openharmony-arm64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "openharmony"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/openharmony-arm64/-/openharmony-arm64-0.28.2.tgz",
+      "integrity": "sha512-WkhYDmpTjLvGlScA1rwjRUmhl4k8oXR3cIbtqWmELgU/dFeHHlEllxDvdWcNJV9rbzCexB5vz8gtNewWLgCT7Q==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/sunos-x64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/sunos-x64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "sunos"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.28.2.tgz",
+      "integrity": "sha512-GPMSkTOtMnv2U2F8gxe4Io6qmVs+YKyp832Etqqxr0hFngmXQ3rzwytelm3GIn7T4VviRUlf3sOgBOiTdvaf7g==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/win32-arm64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/win32-arm64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.28.2.tgz",
+      "integrity": "sha512-PIhhEkE9uPBleRBrQEJpUn7MBnibZzbGzYWPmY3x+YoVg/95zbjB4CxPPOQ8l5tYYM4mMaCthF8/1DIfBQQyWQ==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/win32-ia32",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/win32-ia32",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "ia32"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.28.2.tgz",
+      "integrity": "sha512-YmJbfTlvU7Sdn9BB+4PRES4oB6pxgS37MAONj+hBr/cpXS1aBPKXxNnDbu+QCWPj0o9dgyxeq79g6c5P8KeuYA==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@esbuild/win32-x64",
+      "version": "0.28.2",
+      "path": "node_modules/@esbuild/win32-x64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.28.2.tgz",
+      "integrity": "sha512-5ebpxr3nWMzrL/rnUI755Jkuee0bHL/Gq0WTF9lvcpv73wAp5eu8MfBUgWK9bhWvZjj7yX8etf/8tI8Ney695g==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@napi-rs/lzma-linux-x64-gnu",
+      "version": "1.5.1",
+      "path": "node_modules/@napi-rs/lzma-linux-x64-gnu",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@napi-rs/lzma-linux-x64-gnu/-/lzma-linux-x64-gnu-1.5.1.tgz",
+      "integrity": "sha512-oTXEIha4SsuXdTA4Iyskj0kpdx2yVXdhd75c2v3xGrHFfVMsbhTPZU/nMPL4sWKo4pBHm3aucLaqGlF696dTyQ==",
+      "installed": true,
+      "installedVersion": "1.5.1",
+      "repository": "https://github.com/Brooooooklyn/lzma",
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-android-arm-eabi",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-android-arm-eabi",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "android"
+      ],
+      "cpu": [
+        "arm"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.64.12.tgz",
+      "integrity": "sha512-Z8lz+5UOiCJLonjeqwJlhUtHA/Sr6R1AidkccQxdWF0nigNzP81aLoU+udgOaGfL5s1uzFXzcux/pCwGAMu0lw==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-android-arm64",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-android-arm64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "android"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.64.12.tgz",
+      "integrity": "sha512-+tKxNa2psFmiTb0KfXlXs4Yj7vkEhzAvZ0DrQ5+0gWHQJM10jSleQ3l1FIVm5uvD53YM8lHfM4mgCLDDN9f1Gg==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-darwin-arm64",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-darwin-arm64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.64.12.tgz",
+      "integrity": "sha512-iiripdfvyRBugV55/Dk7GplNXQtN/PG85OcKeveU1z2UkTg0MofbBF1qk//qgPWiqJbVvQcXAVCfE56oDGO4EQ==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-darwin-x64",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-darwin-x64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.64.12.tgz",
+      "integrity": "sha512-BmATib8swSMAagWNIfDZMnb+k34RXR4bbGOUfZgK8lLlniuMyVoSDDXCOGkdhtUmBXL4aygDh7bhjQ+TmhTvIw==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-freebsd-arm64",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-freebsd-arm64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "freebsd"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.64.12.tgz",
+      "integrity": "sha512-GzrO0CiUq8vcAI/hYJuIcp6wNm3T3YhOpumYtf9Z3Fz+cfN1VESCVfy7EPcM3/m2K8l+Gn2U+4XtNZjwhUXctQ==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-freebsd-x64",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-freebsd-x64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "freebsd"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.64.12.tgz",
+      "integrity": "sha512-Dpta6gigm4o6SYioXtTkZBlGLA/Sl6OpzgLqY+51uafJE2blPejAtR1w82CVLPN+F9cvo1+/em92x/zcOgY0uQ==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-linux-arm-gnueabihf",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-linux-arm-gnueabihf",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.64.12.tgz",
+      "integrity": "sha512-YpeDwQ5uFaogRvytNC8RK0keDO65kI5wNEhGSs+4GiJc3KHhxj4j5cnQh2nCu9ybJj6RP0/ycB6bkN0yFJ9I+w==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-linux-arm-musleabihf",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-linux-arm-musleabihf",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.64.12.tgz",
+      "integrity": "sha512-LQrB3/sImIr1ycrlEyaApOLH1rAy8JV4/dH4eoK817aWATdcs4fESXz53/w72NwDnwPM5zEUpoL7socH4ZDnwA==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-linux-arm64-gnu",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-linux-arm64-gnu",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.64.12.tgz",
+      "integrity": "sha512-iAF2iYu9S4SBfNsb4k0ewNBjO83WxHEltIuKQBGMzEKFgrYfmJn+gatBDXR2t/0zJN0UW0kzR4rfvQ1UHzkZ1A==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-linux-arm64-musl",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-linux-arm64-musl",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.64.12.tgz",
+      "integrity": "sha512-0MQdRtdbirJCXPIVeW/hd/LXLR8Qz96pc+2EBptuuV5q/zSGOzND7SZt8gBTE58NC9cUG/8UxcUXQiKRZ2WzzA==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-linux-loong64-gnu",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-linux-loong64-gnu",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "loong64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-loong64-gnu/-/rollup-linux-loong64-gnu-4.64.12.tgz",
+      "integrity": "sha512-yGDEwn0AGnrY/KCz2oY8R9KKNiQnTcwNuCWXeSXF0VLxXzlqoCgaS5QHsf1lbQvKWwPuN2Czkjk1wXRCBONTOQ==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-linux-loong64-musl",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-linux-loong64-musl",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "loong64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-loong64-musl/-/rollup-linux-loong64-musl-4.64.12.tgz",
+      "integrity": "sha512-AjlbD0efZEhHaJ3bsNjxSFDoguNq6VZvC+FKGJGBCA+ZN7BrZq2TuuSWFa6AI8IpOeuvhp2LoYcP7jiZwmtU0Q==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-linux-ppc64-gnu",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-linux-ppc64-gnu",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "ppc64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-ppc64-gnu/-/rollup-linux-ppc64-gnu-4.64.12.tgz",
+      "integrity": "sha512-sDW0CiPoUCEEUV25uBG5sJ2gKe75DJqLpj91m1eK1vKffywyY7v4i6q1450ZuR6QW4NArXg7JpbMGgKU8di3HQ==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-linux-ppc64-musl",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-linux-ppc64-musl",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "ppc64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-ppc64-musl/-/rollup-linux-ppc64-musl-4.64.12.tgz",
+      "integrity": "sha512-VTQYUhMjl8kv999VuYqScgv7P9cR9KuxI/6bkUsEa3bsswqG0+otFjuLZmJ1U+ffEP4IAz0jxOeV0DX6NRBhjg==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-linux-riscv64-gnu",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-linux-riscv64-gnu",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "riscv64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.64.12.tgz",
+      "integrity": "sha512-ppsKwpSjNrzJ8hge3Z3uiCcoRgAAQk2tU7auy3MFF348ffWRldFPnWIT/a/enK7huijlTfnwn4DYpDoapEb45A==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-linux-riscv64-musl",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-linux-riscv64-musl",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "riscv64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-musl/-/rollup-linux-riscv64-musl-4.64.12.tgz",
+      "integrity": "sha512-Gc3cVRC1trFH+GFWWTsJz6YuD4u75fzr/q99jqQGimonN/zvN6Wecck5WGzllOHj+XYXHcq0Ibor0tanGjfI6A==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-linux-s390x-gnu",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-linux-s390x-gnu",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "s390x"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.64.12.tgz",
+      "integrity": "sha512-pjmDTFStvwFE3shTeUDvSDiSp8/qAf5bQXejcEUDDavWz4jEhTIpCdpS06G0PEwSCSNK0Lngjz2v9l4hk3Z74A==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-gnu",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-linux-x64-gnu",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.64.12.tgz",
+      "integrity": "sha512-mkbjxPqpR91u1JD7xY4aLZhr/Mqka4/RqGcG4WNGgN/lC1o7TzyCyqJoSJXp9qVVxMwpJGFlEF1VlERb+Ghw1Q==",
+      "installed": true,
+      "installedVersion": "4.64.12",
+      "repository": "https://github.com/rollup/rollup",
+      "homepage": "https://rollupjs.org/",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-musl",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-linux-x64-musl",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.64.12.tgz",
+      "integrity": "sha512-vIeut2LkuVc3gcsawLJPahNAzvzBcFRhu2O+yVb//BuQKz7PIItMF0piXRbN/lIDO3d68TSDd368Vg6YwgTybw==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-openbsd-x64",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-openbsd-x64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "openbsd"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-openbsd-x64/-/rollup-openbsd-x64-4.64.12.tgz",
+      "integrity": "sha512-3Sx+D3r9oPkTdNUcPrIRM2Am+vzEV6VGWoImHG4ZVK2jJeOW+eDjLeTm6nvu/z/m0fiX2YmGLXIypblc336MXg==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-openharmony-arm64",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-openharmony-arm64",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "openharmony"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-openharmony-arm64/-/rollup-openharmony-arm64-4.64.12.tgz",
+      "integrity": "sha512-Nn2xh0teFnl71EiiUrKvECWcdGXtWF8q0uGclYwXGVw6QClGAcME0/bJSGdK+xIvd6MLEKYmjkTUvCBV+7m5Kw==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-win32-arm64-msvc",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-win32-arm64-msvc",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.64.12.tgz",
+      "integrity": "sha512-n1/0H9TS+kBa4xp6n9aV7yiynBNfmerjkj2nAMIfY0ZHv1zShWRXnsAuAPAH0sfEK4ZSMK+z24q2RjAPFLCN1w==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-win32-ia32-msvc",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-win32-ia32-msvc",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "ia32"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.64.12.tgz",
+      "integrity": "sha512-AdlDbQpsLfGlsHr1NfLZFtdnvxCKNp9TwlYVYExs8JJLWjLafUQEKJk0r9zUbmU57mw9nglMEvzqPHuLWYmaKw==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-win32-x64-gnu",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-win32-x64-gnu",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.64.12.tgz",
+      "integrity": "sha512-u5SSUJBHod51UamjkigSr+JPre6xMy5vaWTTV2K0SnFG4RuKyYpf66dTSLFKX2cwaldpwyBurXPUCxq8riQMEg==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-win32-x64-msvc",
+      "version": "4.64.12",
+      "path": "node_modules/@rollup/rollup-win32-x64-msvc",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.64.12.tgz",
+      "integrity": "sha512-j5rXD4R/4DM5+V991AA9xOnG2Rwu2g3p5TPgu1Eu7apju0NUrLl+Bn/KpWc6wYJtlXqzwz1r+LNV1JeBU4VGvw==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "@tweenjs/tween.js",
+      "version": "23.1.3",
+      "path": "node_modules/@tweenjs/tween.js",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/@tweenjs/tween.js/-/tween.js-23.1.3.tgz",
+      "integrity": "sha512-vJmvvwFxYuGnF2axRtPYocag6Clbb5YS7kLL+SO/TeVFzHqDIWrNKYtcsPMibjDx9O+bu+psAy9NKfWklassUA==",
+      "installed": true,
+      "installedVersion": "23.1.3",
+      "repository": "https://github.com/tweenjs/tween.js",
+      "homepage": "https://github.com/tweenjs/tween.js",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/@tweenjs/tween.js/LICENSE",
+          "copy": "licenses/tweenjs__tween.js-23.1.3-LICENSE",
+          "sha256": "c95fecd88f2709bfc34e4d1f1ccc36d17048990e6ba26c283cfecdef0432936b"
+        }
+      ]
+    },
+    {
+      "name": "@types/estree",
+      "version": "1.0.9",
+      "path": "node_modules/@types/estree",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/@types/estree/-/estree-1.0.9.tgz",
+      "integrity": "sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg==",
+      "installed": true,
+      "installedVersion": "1.0.9",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/estree",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/@types/estree/LICENSE",
+          "copy": "licenses/types__estree-1.0.9-LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/stats.js",
+      "version": "0.17.4",
+      "path": "node_modules/@types/stats.js",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/@types/stats.js/-/stats.js-0.17.4.tgz",
+      "integrity": "sha512-jIBvWWShCvlBqBNIZt0KAshWpvSjhkwkEu4ZUcASoAvhmrgAUI2t1dXrjSL4xXVLB4FznPrIsX3nKXFl/Dt4vA==",
+      "installed": true,
+      "installedVersion": "0.17.4",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/stats.js",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/@types/stats.js/LICENSE",
+          "copy": "licenses/types__stats.js-0.17.4-LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/three",
+      "version": "0.180.0",
+      "path": "node_modules/@types/three",
+      "declaredLicense": "MIT",
+      "role": "direct development",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/@types/three/-/three-0.180.0.tgz",
+      "integrity": "sha512-ykFtgCqNnY0IPvDro7h+9ZeLY+qjgUWv+qEvUt84grhenO60Hqd4hScHE7VTB9nOQ/3QM8lkbNE+4vKjEpUxKg==",
+      "installed": true,
+      "installedVersion": "0.180.0",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/three",
+      "dependencies": {
+        "@dimforge/rapier3d-compat": "~0.12.0",
+        "@tweenjs/tween.js": "~23.1.3",
+        "@types/stats.js": "*",
+        "@types/webxr": "*",
+        "@webgpu/types": "*",
+        "fflate": "~0.8.2",
+        "meshoptimizer": "~0.22.0"
+      },
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/@types/three/LICENSE",
+          "copy": "licenses/types__three-0.180.0-LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/webxr",
+      "version": "0.5.24",
+      "path": "node_modules/@types/webxr",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/@types/webxr/-/webxr-0.5.24.tgz",
+      "integrity": "sha512-h8fgEd/DpoS9CBrjEQXR+dIDraopAEfu4wYVNY2tEPwk60stPWhvZMf4Foo5FakuQ7HFZoa8WceaWFervK2Ovg==",
+      "installed": true,
+      "installedVersion": "0.5.24",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/webxr",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/@types/webxr/LICENSE",
+          "copy": "licenses/types__webxr-0.5.24-LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@webgpu/types",
+      "version": "0.1.74",
+      "path": "node_modules/@webgpu/types",
+      "declaredLicense": "BSD-3-Clause",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/@webgpu/types/-/types-0.1.74.tgz",
+      "integrity": "sha512-lgiI4hbuLcI9unnm2cL/tvCaQU45dp0xcLWJh5uB/9MBGvIA4F8XIk7nSiBeg+K4xWGYwgZKn80LmERI5CxoTA==",
+      "installed": true,
+      "installedVersion": "0.1.74",
+      "repository": "https://github.com/gpuweb/types",
+      "homepage": "https://github.com/gpuweb/types",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/@webgpu/types/LICENSE",
+          "copy": "licenses/webgpu__types-0.1.74-LICENSE",
+          "sha256": "ad88400fc55c2871ba2ed33930dc13001ef01907c2ddcbfa3caa8656e9142f05"
+        }
+      ]
+    },
+    {
+      "name": "esbuild",
+      "version": "0.28.2",
+      "path": "node_modules/esbuild",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz",
+      "integrity": "sha512-HKVLS8dvII+xoKW9kmqxbRKrnWEXfJJr/FZhhJmiqIB0e053QNYFqOBouTMO/k5sID4MvCiUCvv8b9M4h32wIA==",
+      "installed": true,
+      "installedVersion": "0.28.2",
+      "repository": "https://github.com/evanw/esbuild",
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {
+        "@esbuild/aix-ppc64": "0.28.2",
+        "@esbuild/android-arm": "0.28.2",
+        "@esbuild/android-arm64": "0.28.2",
+        "@esbuild/android-x64": "0.28.2",
+        "@esbuild/darwin-arm64": "0.28.2",
+        "@esbuild/darwin-x64": "0.28.2",
+        "@esbuild/freebsd-arm64": "0.28.2",
+        "@esbuild/freebsd-x64": "0.28.2",
+        "@esbuild/linux-arm": "0.28.2",
+        "@esbuild/linux-arm64": "0.28.2",
+        "@esbuild/linux-ia32": "0.28.2",
+        "@esbuild/linux-loong64": "0.28.2",
+        "@esbuild/linux-mips64el": "0.28.2",
+        "@esbuild/linux-ppc64": "0.28.2",
+        "@esbuild/linux-riscv64": "0.28.2",
+        "@esbuild/linux-s390x": "0.28.2",
+        "@esbuild/linux-x64": "0.28.2",
+        "@esbuild/netbsd-arm64": "0.28.2",
+        "@esbuild/netbsd-x64": "0.28.2",
+        "@esbuild/openbsd-arm64": "0.28.2",
+        "@esbuild/openbsd-x64": "0.28.2",
+        "@esbuild/openharmony-arm64": "0.28.2",
+        "@esbuild/sunos-x64": "0.28.2",
+        "@esbuild/win32-arm64": "0.28.2",
+        "@esbuild/win32-ia32": "0.28.2",
+        "@esbuild/win32-x64": "0.28.2"
+      },
+      "notices": [
+        {
+          "source": "node_modules/esbuild/LICENSE.md",
+          "copy": "licenses/esbuild-0.28.2-LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ]
+    },
+    {
+      "name": "fdir",
+      "version": "6.5.0",
+      "path": "node_modules/fdir",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+      "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+      "installed": true,
+      "installedVersion": "6.5.0",
+      "repository": "https://github.com/thecodrr/fdir",
+      "homepage": "https://github.com/thecodrr/fdir#readme",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/fdir/LICENSE",
+          "copy": "licenses/fdir-6.5.0-LICENSE",
+          "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86"
+        }
+      ]
+    },
+    {
+      "name": "fflate",
+      "version": "0.8.3",
+      "path": "node_modules/fflate",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/fflate/-/fflate-0.8.3.tgz",
+      "integrity": "sha512-tbZNuJrLwGUp3zshBtdy4W+ORxZuIh8a5ilyIEQDC5rY1f3U20JMry0Ll3WBzU58EZKsEuJFXhb5gwv8CsPvgA==",
+      "installed": true,
+      "installedVersion": "0.8.3",
+      "repository": "https://github.com/101arrowz/fflate",
+      "homepage": "https://101arrowz.github.io/fflate",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/fflate/LICENSE",
+          "copy": "licenses/fflate-0.8.3-LICENSE",
+          "sha256": "0a1df3a083d0c010560aa342e87959c8c1070e6fd54545741f083f22d0c8b551"
+        }
+      ]
+    },
+    {
+      "name": "fsevents",
+      "version": "2.3.3",
+      "path": "node_modules/fsevents",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
+      "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",
+      "installed": false,
+      "installedVersion": null,
+      "repository": null,
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": []
+    },
+    {
+      "name": "meshoptimizer",
+      "version": "0.22.0",
+      "path": "node_modules/meshoptimizer",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/meshoptimizer/-/meshoptimizer-0.22.0.tgz",
+      "integrity": "sha512-IebiK79sqIy+E4EgOr+CAw+Ke8hAspXKzBd0JdgEmPHiAwmvEj2S4h1rfvo+o/BnfEYd/jAOg5IeeIjzlzSnDg==",
+      "installed": true,
+      "installedVersion": "0.22.0",
+      "repository": "https://github.com/zeux/meshoptimizer",
+      "homepage": "https://github.com/zeux/meshoptimizer",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/meshoptimizer/LICENSE.md",
+          "copy": "licenses/meshoptimizer-0.22.0-LICENSE.md",
+          "sha256": "d1bc307ff896c7fc65e3ff4823cc478194f7a5bc6436f99534ebede4d9e2017a"
+        }
+      ]
+    },
+    {
+      "name": "nanoid",
+      "version": "3.3.20",
+      "path": "node_modules/nanoid",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.20.tgz",
+      "integrity": "sha512-uKdg2G3GNCKQn9byYOpxbGqrT2fGO5KRt5J/8b3pok8rT6qxGWF6hxMyJiEYtAf+FVyYuD9hRaDqX5uPFYJ4ZQ==",
+      "installed": true,
+      "installedVersion": "3.3.20",
+      "repository": "ai/nanoid",
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/nanoid/LICENSE",
+          "copy": "licenses/nanoid-3.3.20-LICENSE",
+          "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987"
+        }
+      ]
+    },
+    {
+      "name": "picocolors",
+      "version": "1.1.1",
+      "path": "node_modules/picocolors",
+      "declaredLicense": "ISC",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+      "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+      "installed": true,
+      "installedVersion": "1.1.1",
+      "repository": "alexeyraspopov/picocolors",
+      "homepage": null,
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/picocolors/LICENSE",
+          "copy": "licenses/picocolors-1.1.1-LICENSE",
+          "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750"
+        }
+      ]
+    },
+    {
+      "name": "picomatch",
+      "version": "4.0.7",
+      "path": "node_modules/picomatch",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz",
+      "integrity": "sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==",
+      "installed": true,
+      "installedVersion": "4.0.7",
+      "repository": "micromatch/picomatch",
+      "homepage": "https://github.com/micromatch/picomatch",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/picomatch/LICENSE",
+          "copy": "licenses/picomatch-4.0.7-LICENSE",
+          "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9"
+        }
+      ]
+    },
+    {
+      "name": "postcss",
+      "version": "8.5.31",
+      "path": "node_modules/postcss",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.5.31.tgz",
+      "integrity": "sha512-YUbWYCgErwnMAVkjUnYa+KlMBzGpHwiIt/DE7f0G33AuX2LH9UcTk6KgWxd3zRU+pN3u/C+Xl3EnMLM4Hea7Sg==",
+      "installed": true,
+      "installedVersion": "8.5.31",
+      "repository": "postcss/postcss",
+      "homepage": "https://postcss.org/",
+      "dependencies": {
+        "nanoid": "^3.3.20",
+        "picocolors": "^1.1.1",
+        "source-map-js": "^1.2.2"
+      },
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/postcss/LICENSE",
+          "copy": "licenses/postcss-8.5.31-LICENSE",
+          "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8"
+        }
+      ]
+    },
+    {
+      "name": "rollup",
+      "version": "4.64.12",
+      "path": "node_modules/rollup",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/rollup/-/rollup-4.64.12.tgz",
+      "integrity": "sha512-GhAu8ZglZ61VWSX/ZW3K/qkazgURBIQL0/Yy51QsS8DPyebR5Cf/Z2PANJFpTU0aVZ9byJcyqR6xvBbkXhdGYQ==",
+      "installed": true,
+      "installedVersion": "4.64.12",
+      "repository": "https://github.com/rollup/rollup",
+      "homepage": "https://rollupjs.org/",
+      "dependencies": {
+        "@types/estree": "1.0.9"
+      },
+      "optionalDependencies": {
+        "@napi-rs/lzma-linux-x64-gnu": "1.5.1",
+        "@rollup/rollup-android-arm-eabi": "4.64.12",
+        "@rollup/rollup-android-arm64": "4.64.12",
+        "@rollup/rollup-darwin-arm64": "4.64.12",
+        "@rollup/rollup-darwin-x64": "4.64.12",
+        "@rollup/rollup-freebsd-arm64": "4.64.12",
+        "@rollup/rollup-freebsd-x64": "4.64.12",
+        "@rollup/rollup-linux-arm-gnueabihf": "4.64.12",
+        "@rollup/rollup-linux-arm-musleabihf": "4.64.12",
+        "@rollup/rollup-linux-arm64-gnu": "4.64.12",
+        "@rollup/rollup-linux-arm64-musl": "4.64.12",
+        "@rollup/rollup-linux-loong64-gnu": "4.64.12",
+        "@rollup/rollup-linux-loong64-musl": "4.64.12",
+        "@rollup/rollup-linux-ppc64-gnu": "4.64.12",
+        "@rollup/rollup-linux-ppc64-musl": "4.64.12",
+        "@rollup/rollup-linux-riscv64-gnu": "4.64.12",
+        "@rollup/rollup-linux-riscv64-musl": "4.64.12",
+        "@rollup/rollup-linux-s390x-gnu": "4.64.12",
+        "@rollup/rollup-linux-x64-gnu": "4.64.12",
+        "@rollup/rollup-linux-x64-musl": "4.64.12",
+        "@rollup/rollup-openbsd-x64": "4.64.12",
+        "@rollup/rollup-openharmony-arm64": "4.64.12",
+        "@rollup/rollup-win32-arm64-msvc": "4.64.12",
+        "@rollup/rollup-win32-ia32-msvc": "4.64.12",
+        "@rollup/rollup-win32-x64-gnu": "4.64.12",
+        "@rollup/rollup-win32-x64-msvc": "4.64.12",
+        "fsevents": "~2.3.2"
+      },
+      "notices": [
+        {
+          "source": "node_modules/rollup/LICENSE.md",
+          "copy": "licenses/rollup-4.64.12-LICENSE.md",
+          "sha256": "fa1bd040c5bdeefe65b3821cebf474f2733ce65df13089bd151dda1778e62fe8"
+        }
+      ]
+    },
+    {
+      "name": "source-map-js",
+      "version": "1.2.2",
+      "path": "node_modules/source-map-js",
+      "declaredLicense": "BSD-3-Clause",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz",
+      "integrity": "sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==",
+      "installed": true,
+      "installedVersion": "1.2.2",
+      "repository": "7rulnik/source-map-js",
+      "homepage": "https://github.com/7rulnik/source-map-js",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/source-map-js/LICENSE",
+          "copy": "licenses/source-map-js-1.2.2-LICENSE",
+          "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd"
+        }
+      ]
+    },
+    {
+      "name": "three",
+      "version": "0.180.0",
+      "path": "node_modules/three",
+      "declaredLicense": "MIT",
+      "role": "direct runtime",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/three/-/three-0.180.0.tgz",
+      "integrity": "sha512-o+qycAMZrh+TsE01GqWUxUIKR1AL0S8pq7zDkYOQw8GqfX8b8VoCKYUoHbhiX5j+7hr8XsuHDVU6+gkQJQKg9w==",
+      "installed": true,
+      "installedVersion": "0.180.0",
+      "repository": "https://github.com/mrdoob/three.js",
+      "homepage": "https://threejs.org/",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/three/LICENSE",
+          "copy": "licenses/three-0.180.0-LICENSE",
+          "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+        }
+      ]
+    },
+    {
+      "name": "tinyglobby",
+      "version": "0.2.17",
+      "path": "node_modules/tinyglobby",
+      "declaredLicense": "MIT",
+      "role": "development transitive/optional",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz",
+      "integrity": "sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==",
+      "installed": true,
+      "installedVersion": "0.2.17",
+      "repository": "https://github.com/SuperchupuDev/tinyglobby",
+      "homepage": "https://superchupu.dev/tinyglobby",
+      "dependencies": {
+        "fdir": "^6.5.0",
+        "picomatch": "^4.0.4"
+      },
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/tinyglobby/LICENSE",
+          "copy": "licenses/tinyglobby-0.2.17-LICENSE",
+          "sha256": "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f"
+        }
+      ]
+    },
+    {
+      "name": "typescript",
+      "version": "5.9.3",
+      "path": "node_modules/typescript",
+      "declaredLicense": "Apache-2.0",
+      "role": "direct development",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+      "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+      "installed": true,
+      "installedVersion": "5.9.3",
+      "repository": "https://github.com/microsoft/TypeScript",
+      "homepage": "https://www.typescriptlang.org/",
+      "dependencies": {},
+      "optionalDependencies": {},
+      "notices": [
+        {
+          "source": "node_modules/typescript/LICENSE.txt",
+          "copy": "licenses/typescript-5.9.3-LICENSE.txt",
+          "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+        },
+        {
+          "source": "node_modules/typescript/ThirdPartyNoticeText.txt",
+          "copy": "licenses/typescript-5.9.3-ThirdPartyNoticeText.txt",
+          "sha256": "1af3c68039c57e539422da82a4faada506ce6d0ea6f90e0b699d02dbcdb7a90c"
+        }
+      ]
+    },
+    {
+      "name": "vite",
+      "version": "7.3.7",
+      "path": "node_modules/vite",
+      "declaredLicense": "MIT",
+      "role": "direct development",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "resolved": "https://registry.npmjs.org/vite/-/vite-7.3.7.tgz",
+      "integrity": "sha512-AHEzTORMbi7/7aXp7w7KZ5+DCUdSeLsJz0grY8xHpc9DHdYb0vQu6DqJfm2tOw3gDExNgPgnJTXxM6syYFHaCA==",
+      "installed": true,
+      "installedVersion": "7.3.7",
+      "repository": "https://github.com/vitejs/vite",
+      "homepage": "https://vite.dev",
+      "dependencies": {
+        "esbuild": "^0.27.0 || ^0.28.0",
+        "fdir": "^6.5.0",
+        "picomatch": "^4.0.3",
+        "postcss": "^8.5.6",
+        "rollup": "^4.43.0",
+        "tinyglobby": "^0.2.15"
+      },
+      "optionalDependencies": {
+        "fsevents": "~2.3.3"
+      },
+      "notices": [
+        {
+          "source": "node_modules/vite/LICENSE.md",
+          "copy": "licenses/vite-7.3.7-LICENSE.md",
+          "sha256": "a77a1c089806b39ad339535bdf3677f636c91d96693e8ad7b11fe733f650ea64"
+        }
+      ]
+    }
+  ]
+}
