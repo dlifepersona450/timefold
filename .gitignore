@@ -12,6 +12,16 @@ coverage/
 !.env.*.example
 *.pem
 *.key
+
+# Authentication stays outside this repository; ignore accidental local copies.
+**/.config/gh/
+.gh/
+.github-auth/
+.git-credentials
+.git-credentials.*
+.secrets/
+
+# Machine-specific files.
 .DS_Store
 Thumbs.db
 *.log

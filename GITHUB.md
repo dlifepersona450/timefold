@@ -18,10 +18,26 @@ Use GitHub in this session when available, or install the [official GitHub CLI](
 ```bash
 gh auth login --hostname github.com --git-protocol https --web
 gh api user --jq .login
-gh auth setup-git
 ```
 
 Check that the printed login is `dlifepersona450`. The browser sign-in keeps passwords and tokens out of project files.
+
+For this workspace, configure Git to ask GitHub CLI for credentials. These settings are local to this repository:
+
+```bash
+git config --local credential.https://github.com.helper ''
+git config --local --add credential.https://github.com.helper '!gh auth git-credential'
+```
+
+The empty helper entry resets inherited helpers for this host, and the next entry delegates authentication to the signed-in CLI. The helper command contains no token. `gh auth setup-git` is the CLI's alternative for configuring authentication more broadly; this workspace uses the repository-local settings above.
+
+### Where authentication is stored
+
+Sign in through GitHub's browser/device flow. GitHub CLI uses the system credential store when available; otherwise it can store credentials under its user configuration directory, normally `~/.config/gh`. This location is outside the DLife repository. Restrict the configuration directory to your own user and never copy its contents into project files. The executable is also installed outside the workspace; neither its binary nor its credentials belongs in a commit.
+
+The root `.gitignore` excludes `.env` files, private-key files, accidental `.config/gh/` or `.gh/` copies, `.github-auth/`, `.git-credentials` files, and `.secrets/` directories. Public `profile.json` and `github-settings.json` remain tracked because they contain only persona text and asset references. `.env.example` files can be tracked as examples and must contain placeholders rather than credentials.
+
+Ignore rules prevent accidental addition of untracked matching files; they do not encrypt data or remove an already committed credential. Credentials are kept outside the working copy so normal commits, workspace pushes, and profile subtree exports never need to include them. Check authentication with `gh api user --jq .login`; do not use `gh auth token`, `--show-token`, or print a credential file when sharing diagnostics.
 
 Create an empty public workspace repository so visitors can follow the featured TIMEFOLD link and inspect the source. For private personal storage, choose `--private` instead and remove or replace the public profile's TIMEFOLD link.
 
