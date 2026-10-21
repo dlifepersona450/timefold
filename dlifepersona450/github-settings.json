@@ -1,0 +1,45 @@
+{
+  "account": {
+    "login": "dlifepersona450",
+    "profilePayload": "profile.json",
+    "avatarFile": "assets/avatar.png",
+    "status": {
+      "message": "Exploring the next idea",
+      "emoji": "🧭"
+    }
+  },
+  "repositories": [
+    {
+      "name": "dlifepersona450",
+      "description": "DLife — an anonymous explorer combining technology, creativity, and adventure.",
+      "topics": [
+        "github-profile",
+        "creative-coding",
+        "web-development",
+        "game-development",
+        "adventure"
+      ],
+      "homepage": "",
+      "visibility": "public",
+      "socialPreviewFile": "assets/social-preview.png"
+    },
+    {
+      "name": "DLife",
+      "description": "Creative technology experiments, TIMEFOLD, and the DLife explorer persona, with source and learning guides.",
+      "topics": [
+        "creative-coding",
+        "webgl",
+        "threejs",
+        "typescript",
+        "interactive-art",
+        "documentation"
+      ],
+      "homepage": "",
+      "visibility": "public",
+      "socialPreviewFile": "assets/social-preview.png"
+    }
+  ],
+  "pins": [
+    "dlifepersona450/DLife"
+  ]
+}

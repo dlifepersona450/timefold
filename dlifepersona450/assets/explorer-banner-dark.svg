@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500" role="img" aria-labelledby="dark-banner-title dark-banner-description">
+  <title id="dark-banner-title">DLife — a curious person, an open horizon, after dark</title>
+  <desc id="dark-banner-description">An original illustration of an anonymous explorer with a backpack standing on an ochre ridge. Beyond a layered navy and blue landscape, a luminous circular portal opens toward an uncharted horizon. Small connected shapes suggest ideas coming together.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#142a3c" />
+      <stop offset="1" stop-color="#1c3b52" />
+    </linearGradient>
+    <linearGradient id="portal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bdd8e9" />
+      <stop offset="0.5" stop-color="#7babc7" />
+      <stop offset="1" stop-color="#305d80" />
+    </linearGradient>
+    <linearGradient id="portal-ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#142a3c" />
+      <stop offset="0.38" stop-color="#b4d5e6" />
+      <stop offset="1" stop-color="#6a9ab9" />
+    </linearGradient>
+    <linearGradient id="foreground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b68044" />
+      <stop offset="1" stop-color="#d5a759" />
+    </linearGradient>
+    <clipPath id="frame"><rect width="1400" height="500" rx="20" /></clipPath>
+    <clipPath id="portal-window"><circle cx="1080" cy="222" r="111" /></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1400" height="500" fill="url(#sky)" />
+
+    <!-- A quiet drafting grid becomes a horizon as the two ideas meet. -->
+    <g fill="none" stroke="#c2d5e1" stroke-width="1" opacity="0.055">
+      <path d="M0 76H1400M0 152H1400M0 228H1400M0 304H1400M0 380H1400M0 456H1400" />
+      <path d="M76 0V500M152 0V500M228 0V500M304 0V500M380 0V500M456 0V500M532 0V500M608 0V500M684 0V500M760 0V500M836 0V500M912 0V500M988 0V500M1064 0V500M1140 0V500M1216 0V500M1292 0V500M1368 0V500" />
+    </g>
+
+    <circle cx="1262" cy="80" r="37" fill="#e8bb66" opacity="0.65" />
+    <circle cx="1262" cy="80" r="49" fill="none" stroke="#e1b66a" opacity="0.3" />
+
+    <path d="M657 313 789 228 879 278 952 209 1051 287 1148 202 1268 266 1400 224V500H657Z" fill="#335570" />
+    <path d="M572 388 730 302 840 332 949 282 1041 334 1156 279 1288 333 1400 286V500H572Z" fill="#29445c" />
+
+    <!-- The portal contains its own landscape rather than a borrowed scene. -->
+    <circle cx="1080" cy="222" r="134" fill="none" stroke="#92b8d0" stroke-width="1" opacity="0.3" />
+    <circle cx="1080" cy="222" r="123" fill="none" stroke="url(#portal-ring)" stroke-width="11" />
+    <circle cx="1080" cy="222" r="111" fill="url(#portal)" />
+    <g clip-path="url(#portal-window)">
+      <circle cx="1120" cy="170" r="24" fill="#fff0c7" />
+      <path d="m950 267 75-64 49 35 58-56 83 84 47-24v128H950Z" fill="#678eac" />
+      <path d="m951 298 81-47 74 29 63-42 87 54v78H951Z" fill="#315779" />
+      <path d="M1040 345c18-39 51-43 59-66 6-16-6-25-17-33 28 4 47 18 36 38-13 24-27 27-27 61" fill="#d9e7ee" opacity="0.85" />
+    </g>
+    <path d="M1080 75V89M1080 355V369M933 222H947M1213 222H1227" stroke="#a9cadd" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+
+    <!-- Connected primitives: a small visual note about combining concepts. -->
+    <g fill="none" stroke="#97bad1" stroke-width="1.5" opacity="0.8">
+      <path d="m795 130 48-42 53 34" stroke-dasharray="4 6" />
+      <circle cx="795" cy="130" r="11" />
+      <path d="m843 76 12 12-12 12-12-12Z" />
+      <rect x="886" y="112" width="20" height="20" rx="3" transform="rotate(12 896 122)" />
+    </g>
+    <g fill="#dbaf63">
+      <circle cx="935" cy="71" r="2.5" />
+      <circle cx="1322" cy="188" r="2" />
+      <circle cx="741" cy="215" r="2" />
+    </g>
+
+    <path d="M0 425c176-28 314 19 486-8 114-18 181-80 305-73 129 8 168 72 292 57 121-15 191-64 317-48v147H0Z" fill="#9c7950" />
+    <path d="M562 500c115-82 189-155 293-153 87 2 122 47 217 46 104-2 203-32 328-1v108Z" fill="url(#foreground)" />
+    <path d="M876 500c4-45 70-58 71-91 0-22-34-37-59-47 51 9 93 26 83 52-13 32-52 47-49 86" fill="#f5dda9" opacity="0.85" />
+    <path d="M584 482c92-56 185-133 271-135" fill="none" stroke="#e0b87b" stroke-width="1.5" opacity="0.35" />
+
+    <!-- Faceless, compact silhouette: no identity or likeness is implied. -->
+    <ellipse cx="853" cy="378" rx="27" ry="6" fill="#0c1d2a" opacity="0.22" />
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <path d="m845 347-3 27m17-26 4 26" fill="none" stroke="#132c40" stroke-width="9" />
+      <path d="m837 375h10m13 0h10" fill="none" stroke="#132c40" stroke-width="5" />
+      <rect x="834" y="312" width="14" height="29" rx="6" fill="#9b7042" />
+      <path d="M844 307c-7 8-7 22-6 42 7 6 17 5 25 0 0-19-1-34-10-42" fill="#edc875" stroke="#c69a4e" stroke-width="1" />
+      <path d="m859 317 8 23m-26-23-5 21" fill="none" stroke="#132c40" stroke-width="6" />
+      <path d="m867 340 5 33" fill="none" stroke="#263e50" stroke-width="2" />
+      <path d="m846 305 1 7 7-1 1-7" fill="#132c40" />
+      <ellipse cx="850" cy="294" rx="12" ry="15" fill="#132c40" />
+      <path d="M835 293c3-12 9-18 17-15 7 3 10 9 11 15Z" fill="#354f63" />
+      <path d="M834 293h33" fill="none" stroke="#354f63" stroke-width="4" />
+    </g>
+
+    <g fill="#f8f1e1">
+      <text x="76" y="107" font-family="ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" letter-spacing="3">EXPLORE · COMBINE · CREATE</text>
+      <text x="70" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="118" letter-spacing="-5">DLife</text>
+      <text x="78" y="307" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="25" letter-spacing="0.2">A curious person. An open horizon.</text>
+      <path d="M78 341h64" fill="none" stroke="#dfb262" stroke-width="3" />
+      <text x="78" y="377" font-family="ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" letter-spacing="1.3">WEB / GAMES / APPS / ADVENTURE</text>
+    </g>
+  </g>
+</svg>

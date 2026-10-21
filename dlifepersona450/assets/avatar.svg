@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="avatar-title avatar-description">
+  <title id="avatar-title">DLife anonymous explorer avatar</title>
+  <desc id="avatar-description">An original faceless explorer in an ochre hood, framed by a blue circular portal and a cream sky. The central silhouette remains visible inside a circular profile crop.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbf7ec"/><stop offset="1" stop-color="#e4edf1"/></linearGradient>
+    <linearGradient id="portal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b7d4e2"/><stop offset="1" stop-color="#416785"/></linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e6bb6a"/><stop offset="1" stop-color="#b87b3e"/></linearGradient>
+    <clipPath id="portal-window"><circle cx="512" cy="468" r="336"/></clipPath>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="512" cy="468" r="370" fill="none" stroke="#c09a5d" stroke-width="3"/>
+  <circle cx="512" cy="468" r="351" fill="none" stroke="#527c98" stroke-width="12"/>
+  <circle cx="512" cy="468" r="336" fill="url(#portal)"/>
+  <g clip-path="url(#portal-window)">
+    <circle cx="688" cy="298" r="58" fill="#fbefcc"/>
+    <path d="m91 615 192-233 130 149 139-177 206 232 175-126v372H91Z" fill="#779bb2"/>
+    <path d="m101 744 194-182 158 132 219-180 209 149 83 169H101Z" fill="#315774"/>
+  </g>
+  <path d="M512 78V99M512 837v21M122 468h21M881 468h21" stroke="#567791" stroke-width="6" stroke-linecap="round"/>
+  <path d="M104 894c162-113 305-141 438-118 157 27 237-1 386-58v306H104Z" fill="#dfc38e"/>
+  <!-- The hood is intentionally featureless; the viewer supplies the identity. -->
+  <path d="M290 912c6-151 19-261 61-321 41-60 96-88 161-88s120 28 161 88c42 60 55 170 61 321Z" fill="#203a50"/>
+  <path d="M309 909c10-143 25-232 63-283l68-60h144l68 60c38 51 53 140 63 283Z" fill="url(#coat)"/>
+  <path d="M426 582c-73-43-103-108-81-193 20-80 77-149 167-149s147 69 167 149c22 85-8 150-81 193l-86 55Z" fill="#d9a44f" stroke="#a97839" stroke-width="9"/>
+  <path d="M395 449c0-100 52-169 117-169s117 69 117 169c0 58-42 111-117 147-75-36-117-89-117-147Z" fill="#203a50"/>
+  <path d="M415 420c9-64 39-104 78-116" fill="none" stroke="#3f5e76" stroke-width="14" stroke-linecap="round"/>
+  <path d="m396 596 116 67 116-67-47 100H443Z" fill="#f2cf86"/>
+  <path d="M512 663v246" stroke="#8b602f" stroke-width="10"/>
+  <path d="m370 638 30 271m254-271-30 271" stroke="#283f50" stroke-width="28"/>
+  <path d="m370 638 30 271m254-271-30 271" stroke="#456073" stroke-width="8"/>
+  <path d="M351 908h322" stroke="#f5dfb2" stroke-width="7" opacity=".5"/>
+  <path d="m575 727 23 23-23 23-23-23Z" fill="#f8ead0" stroke="#8e6538" stroke-width="4"/>
+</svg>

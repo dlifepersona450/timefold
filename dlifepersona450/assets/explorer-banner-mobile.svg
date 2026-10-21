@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700" role="img" aria-labelledby="mobile-title mobile-description">
+  <title id="mobile-title">DLife — a curious person, an open horizon</title>
+  <desc id="mobile-description">An original square composition for narrow screens. Large DLife lettering and an exploration motto sit above an anonymous explorer, warm ochre ridges, and a luminous blue portal.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbf7ec"/><stop offset="1" stop-color="#e4edf1"/></linearGradient>
+    <linearGradient id="portal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c8e0eb"/><stop offset="1" stop-color="#5f8cac"/></linearGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bd834b"/><stop offset="1" stop-color="#d8a85d"/></linearGradient>
+    <clipPath id="frame"><rect width="700" height="700" rx="20"/></clipPath>
+    <clipPath id="portal-window"><circle cx="451" cy="441" r="114"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="700" height="700" fill="url(#sky)"/>
+    <g fill="none" stroke="#233b50" opacity=".05"><path d="M0 70h700M0 140h700M0 210h700M0 280h700M0 350h700M0 420h700M0 490h700M0 560h700M0 630h700"/><path d="M70 0v700M140 0v700M210 0v700M280 0v700M350 0v700M420 0v700M490 0v700M560 0v700M630 0v700"/></g>
+    <g fill="#223a4e">
+      <text x="48" y="70" font-family="ui-monospace, Consolas, monospace" font-size="14" letter-spacing="2.8">EXPLORE · COMBINE · CREATE</text>
+      <text x="41" y="202" font-family="Georgia, 'Times New Roman', serif" font-size="124" letter-spacing="-5">DLife</text>
+      <text x="49" y="248" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="24">A curious person. An open horizon.</text>
+      <path d="M49 274h63" stroke="#ba8747" stroke-width="3"/>
+      <text x="49" y="306" font-family="ui-monospace, Consolas, monospace" font-size="13" letter-spacing="1.1">WEB / GAMES / APPS / ADVENTURE</text>
+    </g>
+    <circle cx="605" cy="365" r="27" fill="#dfb25c" opacity=".75"/>
+    <circle cx="605" cy="365" r="38" fill="none" stroke="#c49a55" opacity=".35"/>
+    <path d="m0 562 87-72 93 39 85-74 103 99 97-67 105 58 130-84v239H0Z" fill="#adc4d0"/>
+    <circle cx="451" cy="441" r="138" fill="none" stroke="#7395a3" opacity=".3"/>
+    <circle cx="451" cy="441" r="125" fill="none" stroke="#6d96b0" stroke-width="9"/>
+    <circle cx="451" cy="441" r="114" fill="url(#portal)"/>
+    <g clip-path="url(#portal-window)">
+      <circle cx="490" cy="392" r="24" fill="#f8eed0"/>
+      <path d="m323 496 79-90 59 59 69-83 78 114v96H323Z" fill="#789ab4"/>
+      <path d="m322 536 89-75 68 42 55-41 73 58v72H322Z" fill="#3d6585"/>
+      <path d="M421 571c8-39 42-49 44-69 2-12-10-21-20-29 35 6 52 19 44 37-9 21-30 32-29 61Z" fill="#dfedf0"/>
+    </g>
+    <path d="M451 290v12m0 278v12M300 441h12m278 0h12" stroke="#365b74" stroke-width="2" opacity=".6"/>
+    <path d="M0 607c94-30 165-30 247-10 76 18 127-47 216-34 82 11 145 50 237 10v127H0Z" fill="#d9bc85"/>
+    <path d="M91 700c111-83 152-142 246-133 93 9 125 65 225 40 47-12 93-9 138 5v88Z" fill="url(#ridge)"/>
+    <path d="M427 700c-4-32 34-47 31-70-3-21-22-34-42-46 45 12 67 29 63 52-5 27-26 38-24 64Z" fill="#f4dfb2" opacity=".9"/>
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="283" cy="591" rx="30" ry="7" fill="#665e4c" opacity=".22"/>
+      <path d="m273 553-4 34m22-34 7 34m-33 1h12m18 0h11" fill="none" stroke="#243b4e" stroke-width="9"/>
+      <rect x="257" y="506" width="19" height="35" rx="7" fill="#8d6742"/>
+      <path d="M275 501c-13 13-15 30-13 54 10 6 26 6 35 0 0-25-4-43-14-54" fill="#e0b45f" stroke="#a27d3c" stroke-width="1.5"/>
+      <path d="m292 515 11 29m-35-29-8 27" fill="none" stroke="#243b4e" stroke-width="7"/>
+      <path d="m303 544 6 43" fill="none" stroke="#67533d" stroke-width="2.5"/>
+      <ellipse cx="279" cy="487" rx="15" ry="18" fill="#243b4e"/>
+      <path d="M261 487c5-18 14-23 24-16 7 4 10 10 11 16Z" fill="#3c5362"/>
+      <path d="M260 487h40" stroke="#3c5362" stroke-width="5"/>
+    </g>
+    <g fill="none" stroke="#66879a" stroke-width="1.5"><path d="m104 396 46-43 53 31" stroke-dasharray="4 6"/><circle cx="104" cy="396" r="11"/><path d="m150 341 12 12-12 12-12-12Z"/><rect x="194" y="374" width="20" height="20" rx="3" transform="rotate(12 204 384)"/></g>
+  </g>
+</svg>

@@ -5,7 +5,7 @@ A workspace for exploring technology, combining ideas, and building things that 
 | Project | What it explores | Start here |
 | --- | --- | --- |
 | **01 · TIMEFOLD** | A WebGL life archive combining liminal spaces, miniature worlds, and a navigable timeline | [Showcase and setup](timefold/README.md) · [Complete manual](timefold/docs/README.md) |
-| **02 · DLife persona** | An anonymous GitHub identity for creative technology, web, games, apps, and adventure | [Profile README](dlifepersona450/README.md) · [Editing guide](dlifepersona450/docs/README.md) |
+| **02 · DLife persona** | An anonymous GitHub identity with adaptive banners, an avatar, a portal mark, and project artwork | [Profile README](dlifepersona450/README.md) · [Identity kit](dlifepersona450/docs/APPEARANCE.md) · [Editing guide](dlifepersona450/docs/README.md) |
 
 ## GitHub destinations
 

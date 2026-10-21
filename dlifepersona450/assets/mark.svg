@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="mark-title mark-description">
+  <title id="mark-title">DLife portal mark</title>
+  <desc id="mark-description">An original cream D-shaped portal on navy, with a blue inner horizon and an ochre path pointing toward it.</desc>
+  <rect width="128" height="128" rx="28" fill="#203a50"/>
+  <path d="M32 24h27c27 0 43 16 43 40S86 104 59 104H32Z" fill="#f8f1e1"/>
+  <path d="M47 39h12c18 0 28 9 28 25S77 89 59 89H47Z" fill="#7eafca"/>
+  <path d="m47 73 11-16 12 13 17-10v29H47Z" fill="#315774"/>
+  <path d="m54 106 8-27h11l-7 27Z" fill="#d7a452"/>
+  <circle cx="73" cy="52" r="5" fill="#fbefcc"/>
+</svg>

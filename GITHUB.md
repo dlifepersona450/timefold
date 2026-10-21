@@ -1,6 +1,6 @@
 # GitHub setup and publishing
 
-[Workspace](README.md) · [Profile editing manual](dlifepersona450/docs/README.md)
+[Workspace](README.md) · [Profile editing manual](dlifepersona450/docs/README.md) · [Identity kit and settings](dlifepersona450/docs/APPEARANCE.md)
 
 The GitHub account is [`dlifepersona450`](https://github.com/dlifepersona450), with the public name **DLife**. There are two destinations because GitHub requires the profile repository to have exactly the account's username.
 
@@ -23,10 +23,10 @@ gh auth setup-git
 
 Check that the printed login is `dlifepersona450`. The browser sign-in keeps passwords and tokens out of project files.
 
-Create an empty workspace repository. This example chooses private storage; choose `--public` instead if you want the whole workspace publicly visible. The TIMEFOLD project link in the public profile is only accessible to other people when the workspace is public.
+Create an empty public workspace repository so visitors can follow the featured TIMEFOLD link and inspect the source. For private personal storage, choose `--private` instead and remove or replace the public profile's TIMEFOLD link.
 
 ```bash
-gh repo create dlifepersona450/DLife --private \
+gh repo create dlifepersona450/DLife --public \
   --description "Creative technology experiments, TIMEFOLD, and the DLife persona"
 ```
 
@@ -74,6 +74,42 @@ gh api --method PATCH user --input dlifepersona450/profile.json
 ```
 
 Updating the README does not automatically change the account's short bio, avatar, pinned repositories, or account settings.
+
+## Apply the visual identity
+
+The [appearance guide](dlifepersona450/docs/APPEARANCE.md) maps every asset to its supported GitHub placement. The reviewed [settings plan](dlifepersona450/github-settings.json) lists the avatar, status, repository descriptions/topics, and pin order; it is reference data, not an API request payload.
+
+After publishing, upload [`avatar.png`](dlifepersona450/assets/avatar.png) as the account picture, upload [`social-preview.png`](dlifepersona450/assets/social-preview.png) under each repository's **Settings → Social preview**, and pin the workspace repository from the profile. TIMEFOLD is a folder in the workspace rather than a separately pinnable repository. Website and social fields stay empty.
+
+The light/dark/mobile banners live inside the profile README's `<picture>` element. They do not require a separate account upload: GitHub has no native account cover-image field. The README also contains an actual TIMEFOLD screenshot copied into its own assets, so the standalone profile export has everything it needs.
+
+## Regenerate uploadable images
+
+Original SVGs remain the editable source. To export their five PNG counterparts, use a local Chrome or Chromium executable:
+
+```bash
+node scripts/export-profile-assets.mjs
+```
+
+Use `--browser /path/to/chrome` or the `DLIFE_CHROME_BIN` environment variable when Chrome is not found automatically. In a container that cannot run Chrome's sandbox, pass `--no-sandbox`. The script requires Node.js 18+ and local Chrome; there are no extra npm packages or internet requests. TIMEFOLD retains its own Node requirement.
+
+[`scripts/export-profile-assets.mjs`](scripts/export-profile-assets.mjs) checks dimensions and a conservative 1,000,000-byte size limit before replacing existing exports. The avatar is 1024×1024; repository preview is 1280×640; banners are 1400×500 or 700×700. System-font availability can change the rasterized lettering, so inspect regenerated PNGs before publishing. Commit the SVG and PNG together.
+
+| Function / binding | Responsibility |
+| --- | --- |
+| `workspace`, `assets` | Resolve the repository and profile-assets directory from the script's URL |
+| `targets` | Explicit source/output base names and required widths/heights for the five exports |
+| `parseArguments(args)` | Reads the optional browser path, environment override, and opt-in sandbox flag; rejects unsupported arguments |
+| `findBrowser(preferred)` | Tries the requested executable or common Chrome/Chromium names with `--version`; reports a missing browser |
+| `inspectPng(filename, target)` | Validates the PNG signature, reads IHDR dimensions, and enforces the export size limit; returns width/height/byte count |
+| `renderAsset(browser, options, temporary, target)` | Writes a temporary HTML wrapper around the local SVG, invokes Chrome with a bounded runtime and explicit dimensions, and validates the screenshot |
+| `source`, `output`, `page`, `imageUrl`, `args`, `result` | Per-export input/output paths, escaped file URL, browser argument array, and subprocess result; arguments are passed directly rather than executed as shell text |
+| `main()` | Chooses a browser, makes a temporary browser/output directory, validates all exports, then copies them into the profile assets and prints each result |
+| `renders`, `render`, `destination` | Validated temporary outputs and their committed-file destinations |
+| `finally` cleanup | Removes the unique temporary directory after success or failure |
+| Top-level `catch` | Prints the error message and sets exit code 1 |
+
+Changing source SVG dimensions requires updating the matching target in the script. The script never publishes files or changes GitHub account settings. Documentation previews are separate browser captures, not outputs of this PNG exporter.
 
 ## Future changes
 
