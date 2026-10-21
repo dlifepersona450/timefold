@@ -17,7 +17,8 @@ Sometimes that becomes a website. Sometimes a game, an app, or a small experimen
 
 ### On the workbench
 
-**[TIMEFOLD — The Folded Worlds](https://github.com/dlifepersona450/DLife/tree/main/timefold)**  
+**[TIMEFOLD — The Folded Worlds](https://github.com/dlifepersona450/DLife/tree/main/timefold)**
+
 A WebGL experiment combining a 2.5D diorama, a personal archive, and time you can navigate. Travel between eras to watch the room, its objects, and a traveller change with time.
 
 The first version is built. There’s still room to explore, refine, and learn.

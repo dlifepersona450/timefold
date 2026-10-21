@@ -33,7 +33,7 @@ fi
 
 # Git subtree produces history whose root is this directory, without switching
 # branches or creating a nested repository. Check mode makes no network request.
-profile_commit="$(git subtree split --quiet --prefix="$profile_directory" HEAD)"
+profile_commit="$(git subtree split -q --prefix="$profile_directory" HEAD)"
 printf 'Profile destination: %s\nProfile commit: %s\nRoot files:\n' "$profile_repository" "$profile_commit"
 git ls-tree --name-only "$profile_commit"
 
