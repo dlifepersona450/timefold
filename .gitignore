@@ -1,27 +1,3 @@
-# Dependencies and generated builds, including projects added later.
 node_modules/
 dist/
-build/
-coverage/
-.vite/
-
-# Local credentials and machine-specific files.
-.env
-.env.*
-!.env.example
-!.env.*.example
-*.pem
-*.key
-
-# Authentication stays outside this repository; ignore accidental local copies.
-**/.config/gh/
-.gh/
-.github-auth/
-.git-credentials
-.git-credentials.*
-.secrets/
-
-# Machine-specific files.
 .DS_Store
-Thumbs.db
-*.log
